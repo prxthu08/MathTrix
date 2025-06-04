@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         webSettings.setDisplayZoomControls(false);
 
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http://localhost:5000"); // Change this to your deployed URL
+        webView.loadUrl("https://mathtrix.onrender.com"); // Update this with your actual deployed URL
     }
 
     @Override
